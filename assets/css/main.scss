@@ -1,3 +1,9 @@
+//Imports
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap'); //400
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap'); //700
+
+
+
 //Color Variables
 
 //Primary
@@ -29,29 +35,49 @@ body {
     background-color: $brightOrange;
     width:20vw;
     height: 100vh;
+    img {
+        padding: 5vh 0 0 2vw;
+    }
+    h1 {
+        font-family: 'Big Shoulders Display', cursive;
+    }
+    p {
+        font-size: 15px;
+        font-family: 'Lexend Deca', sans-serif;
+    }
 }
 
-.first > img {
-    padding: 5vh 0 0 2vw;
-}
 
 .second {
     background-color: $darkCyan;
     width:20vw;
     height: 100vh;
+    img {
+        padding: 5vh 0 0 2vw;
+    }
+    h1 {
+        font-family: 'Big Shoulders Display', cursive;
+    }
+    p {
+        font-size: 15px;
+        font-family: 'Lexend Deca', sans-serif;
+    }
 }
 
-.second > img {
-    padding: 5vh 0 0 2vw;
-}
 
 .third {
     background-color: $veryDarkCyan;
     width:20vw;
     height: 100vh;
-}
-
-.third > img {
-    padding: 5vh 0 0 2vw;
+    img {
+        padding: 5vh 0 0 2vw;
+    }
+    h1 {
+        font-family: 'Big Shoulders Display', cursive;
+    }
+    p {
+        font-size: 15px;
+        font-family: 'Lexend Deca', sans-serif;
+    }
 }
 //End Column Style

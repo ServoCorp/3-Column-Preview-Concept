@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
 body {
   background-color: #f2f2f2;
 }
@@ -19,8 +21,17 @@ body {
   height: 100vh;
 }
 
-.first > img {
+.first img {
   padding: 5vh 0 0 2vw;
+}
+
+.first h1 {
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+.first p {
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .second {
@@ -29,8 +40,17 @@ body {
   height: 100vh;
 }
 
-.second > img {
+.second img {
   padding: 5vh 0 0 2vw;
+}
+
+.second h1 {
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+.second p {
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .third {
@@ -39,7 +59,16 @@ body {
   height: 100vh;
 }
 
-.third > img {
+.third img {
   padding: 5vh 0 0 2vw;
+}
+
+.third h1 {
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+.third p {
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
