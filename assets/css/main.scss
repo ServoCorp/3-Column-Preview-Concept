@@ -19,7 +19,7 @@ body {
     background-color: $veryLightGray;
 }
 
-//Container Style
+//Container Styles
 .row {
     width: 60vw;
     height: 70vh;
@@ -28,7 +28,13 @@ body {
     overflow: hidden;
     display: flex;
 }
-//End Container Style
+
+.textPadding {
+    padding: 3vh 4vw 0px 2vw;
+    line-height: 3vh;
+}
+
+//End Container Styles
 
 // Columns Style
 .first {
@@ -40,10 +46,14 @@ body {
     }
     h1 {
         font-family: 'Big Shoulders Display', cursive;
+        color: $veryLightGray;
+        font-size: 4vh;
+        letter-spacing: 1px;
     }
     p {
-        font-size: 15px;
+        font-size: 19px;
         font-family: 'Lexend Deca', sans-serif;
+        color: $transparentWhite;
     }
 }
 
@@ -57,10 +67,14 @@ body {
     }
     h1 {
         font-family: 'Big Shoulders Display', cursive;
+        color: $veryLightGray;
+        font-size: 4vh;
+        letter-spacing: 1px;
     }
     p {
-        font-size: 15px;
+        font-size: 19px;
         font-family: 'Lexend Deca', sans-serif;
+        color: $transparentWhite;
     }
 }
 
@@ -74,10 +88,52 @@ body {
     }
     h1 {
         font-family: 'Big Shoulders Display', cursive;
+        color: $veryLightGray;
+        font-size: 4vh;
+        letter-spacing: 1px;
     }
     p {
-        font-size: 15px;
+        font-size: 19px;
         font-family: 'Lexend Deca', sans-serif;
+        color: $transparentWhite;
     }
 }
 //End Column Style
+
+// Button Styles
+
+.buttonWrapper {
+    padding: 21vh 0 0 2vw;
+}
+
+.firstButton {
+    width: 10vw;
+    height: 6vh;
+    border-radius: 30px;
+    border-style: none;
+    color: $brightOrange;
+    font-size: 1.6vh;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+.secondButton {
+    width: 10vw;
+    height: 6vh;
+    border-radius: 30px;
+    border-style: none;
+    color: $darkCyan;
+    font-size: 1.6vh;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.thirdButton {
+    width: 10vw;
+    height: 6vh;
+    border-radius: 30px;
+    border-style: none;
+    color: $veryDarkCyan;
+    font-size: 1.6vh;
+    font-family: 'Lexend Deca', sans-serif;
+}
+// Button Styles End

@@ -15,6 +15,11 @@ body {
   display: flex;
 }
 
+.textPadding {
+  padding: 3vh 4vw 0px 2vw;
+  line-height: 3vh;
+}
+
 .first {
   background-color: #e38826;
   width: 20vw;
@@ -27,11 +32,15 @@ body {
 
 .first h1 {
   font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  font-size: 4vh;
+  letter-spacing: 1px;
 }
 
 .first p {
-  font-size: 15px;
+  font-size: 19px;
   font-family: 'Lexend Deca', sans-serif;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .second {
@@ -46,11 +55,15 @@ body {
 
 .second h1 {
   font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  font-size: 4vh;
+  letter-spacing: 1px;
 }
 
 .second p {
-  font-size: 15px;
+  font-size: 19px;
   font-family: 'Lexend Deca', sans-serif;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .third {
@@ -65,10 +78,48 @@ body {
 
 .third h1 {
   font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  font-size: 4vh;
+  letter-spacing: 1px;
 }
 
 .third p {
-  font-size: 15px;
+  font-size: 19px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.buttonWrapper {
+  padding: 21vh 0 0 2vw;
+}
+
+.firstButton {
+  width: 10vw;
+  height: 6vh;
+  border-radius: 30px;
+  border-style: none;
+  color: #e38826;
+  font-size: 1.6vh;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.secondButton {
+  width: 10vw;
+  height: 6vh;
+  border-radius: 30px;
+  border-style: none;
+  color: #006970;
+  font-size: 1.6vh;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.thirdButton {
+  width: 10vw;
+  height: 6vh;
+  border-radius: 30px;
+  border-style: none;
+  color: #004241;
+  font-size: 1.6vh;
   font-family: 'Lexend Deca', sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
