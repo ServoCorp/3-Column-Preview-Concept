@@ -1,0 +1,57 @@
+//Color Variables
+
+//Primary
+$brightOrange: hsl(31, 77%, 52%);
+$darkCyan: hsl(184, 100%, 22%);
+$veryDarkCyan: hsl(179, 100%, 13%);
+//Neutral
+$transparentWhite: hsla(0, 0%, 100%, 0.75);  //paragraphs
+$veryLightGray: hsl(0, 0%, 95%);  //background, headings, buttons
+
+
+body {
+    background-color: $veryLightGray;
+}
+
+//Container Style
+.row {
+    width: 60vw;
+    height: 70vh;
+    margin: 18vh 15vw 10vh 19vw;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+//End Container Style
+
+// Columns Style
+.first {
+    background-color: $brightOrange;
+    width:20vw;
+    height: 100vh;
+}
+
+.first > img {
+    padding: 5vh 0 0 2vw;
+}
+
+.second {
+    background-color: $darkCyan;
+    width:20vw;
+    height: 100vh;
+}
+
+.second > img {
+    padding: 5vh 0 0 2vw;
+}
+
+.third {
+    background-color: $veryDarkCyan;
+    width:20vw;
+    height: 100vh;
+}
+
+.third > img {
+    padding: 5vh 0 0 2vw;
+}
+//End Column Style
