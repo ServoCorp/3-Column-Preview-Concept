@@ -216,7 +216,7 @@ body {
    // Tablet Fix 800px
    @media only screen and (max-width: 1300px) {  
        .row {
-        height: 76vh;
+        height: none;
         margin: 12vh 0vw 12vh 0vw;
         border-radius: 10px;
         overflow: hidden;
