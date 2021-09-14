@@ -103,7 +103,7 @@ body {
 // Button Styles
 
 .buttonWrapper {
-    padding: 21vh 0 0 2vw;
+    padding: 17vh 0 0 2vw;
 }
 
 .firstButton {
@@ -137,3 +137,120 @@ body {
     font-family: 'Lexend Deca', sans-serif;
 }
 // Button Styles End
+
+//Media Screens
+
+//600px and down
+@media only screen and (max-width: 600px) {  
+    .row {
+        width: auto;
+        height: auto;
+        margin: auto;
+        flex-direction: column;
+    }
+    .first {
+        width: auto;
+        height: 63vh;
+        img {
+            padding: 4vh 0 0 7vw;
+        }
+        h1 {
+            font-size: 6vh;
+        }
+        p {
+            line-height: 4vh;
+        }
+    }
+
+    .second {
+        width: auto;
+        height: 63vh;
+        img {
+            padding: 4vh 0 0 7vw;
+        }
+        h1 {
+            font-size: 6vh;
+        }
+        p {
+            line-height: 4vh;
+        }
+
+    }
+
+    .third {
+        width: auto;
+        height: 63vh;
+        img {
+            padding: 4vh 0 0 7vw;
+        }
+        h1 {
+            font-size: 6vh;
+        }
+        p {
+            line-height: 4vh;
+        }
+    }
+
+    .textPadding {
+        padding: 3vh 7vw 0px 8vw;
+    }
+
+    .buttonWrapper {
+        padding: 4vh 0 0 7vw;
+    }
+
+    .firstButton {
+        width: 50vw;
+    }
+
+    .secondButton {
+        width: 50vw;
+    }
+
+    .thirdButton {
+        width: 50vw;
+    }
+   }
+   // End 600px and under devices
+
+   // Tablet Fix 800px
+   @media only screen and (max-width: 1300px) {  
+       .row {
+        height: 76vh;
+        margin: 12vh 0vw 12vh 0vw;
+        border-radius: 10px;
+        overflow: hidden;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: auto;
+       }
+       .first {
+           width: 100vw;
+       }
+
+       .second {
+        width: 100vw;
+       }
+
+       .third {
+        width: 100vw;
+       }
+
+       .textPadding {
+           padding: 3vh 3vw 0px 2vw;
+       }
+
+       .firstButton {
+           width: 25vw;
+       }
+
+       .secondButton {
+        width: 25vw;
+       }
+
+       .thirdButton {
+        width: 25vw;
+       }
+ 
+ }
